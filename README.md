@@ -68,9 +68,3 @@ This is a GitHub Pages website. After customizing:
 2. Push to the `main` branch
 3. Enable GitHub Pages in repository settings
 4. Your site will be available at `https://martamjl.github.io`
-
-## Technologies Used
-
-- HTML5
-- CSS3 (with responsive design)
-- No JavaScript required (simple static site)
