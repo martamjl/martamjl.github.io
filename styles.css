@@ -115,6 +115,13 @@ body {
     text-align: left;
 }
 
+.about-text .email {
+    font-style: italic;
+    color: #616E7C;        /* softer, academic tone */
+    margin-top: 0;
+    margin-bottom: 1.5rem; /* more space AFTER the email */
+}
+
 /* Research Section */
 .research-section h2 {
     color: #2c3e50;
