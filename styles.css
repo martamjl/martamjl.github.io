@@ -74,10 +74,17 @@ body {
     padding: 1rem 0;
 }
 
-.about-content {
+/* .about-content {
     display: flex;
     gap: 3rem;
     align-items: flex-start;
+    flex-wrap: wrap;
+} */
+
+.about-content {
+    display: flex;
+    gap: 3rem;
+    align-items: center; /* ← this is the key */
     flex-wrap: wrap;
 }
 
