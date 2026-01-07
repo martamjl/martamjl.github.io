@@ -278,6 +278,14 @@ footer {
     margin-top: 2rem;
 }
 
+.custom-link {
+    color: #2c3e50; /* choose your preferred color */
+}
+
+.custom-link:hover {
+    color: #2c3e50; /* optional, but good for usability */
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-container {
