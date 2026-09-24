@@ -1,6 +1,5 @@
 # martamjl.github.io
-
-Personal academic website for PhD in Economics.
+Website for PhD students in Economics.
 
 ## Website Structure
 
@@ -9,7 +8,6 @@ This website contains the following pages:
 - **About Me** (`index.html`) - Profile photo and description
 - **Research** (`research.html`) - Papers with titles, authors, abstracts, and links to PDFs/slides
 - **CV** (`cv.html`) - Link to download CV in PDF format
-- **Contact** (`contact.html`) - Contact information and links
 
 ## Customization Instructions
 
