@@ -10,20 +10,29 @@
    ========================================================= */
 
 :root {
-    --background: #F7F8F8;
+
+    /* Backgrounds */
+    --background: #F7F6F2;
     --surface: #FFFFFF;
-    --surface-soft: #EEF3F5;
+    --surface-soft: #ECEDE9;
 
-    --text: #263238;
-    --text-muted: #647176;
+    /* Text */
+    --text: #2C2E2D;
+    --text-muted: #666A68;
 
-    --accent: #526B7A;
-    --accent-dark: #3E5665;
-    --accent-light: #DCE5E8;
+    /* Accent */
+    --accent: #4D5A55;
+    --accent-dark: #3B4743;
+    --accent-light: #DCE2DF;
 
-    --border: #D1D9DC;
+    /* Borders */
+    --border: #D9DBD7;
 
-    --navbar: #263238;
+    /* Navigation */
+    --navbar: #2C2E2D;
+
+    /* Secondary accent */
+    --taupe: #B9A78F;
 }
 
 
@@ -55,10 +64,11 @@ body {
 
 .navbar {
     background-color: var(--navbar);
-    color: white;
+    color: #FFFFFF;
+
     padding: 1.15rem 0;
 
-    border-bottom: 1px solid rgba(255,255,255,0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 
     position: sticky;
     top: 0;
@@ -80,7 +90,8 @@ body {
     font-family: 'Newsreader', serif;
     font-size: 1.65rem;
     font-weight: 500;
-    color: white;
+
+    color: #FFFFFF;
 }
 
 .nav-menu {
@@ -90,7 +101,8 @@ body {
 }
 
 .nav-menu a {
-    color: #DCE5E8;
+    color: #D9DDDA;
+
     text-decoration: none;
 
     font-size: 0.92rem;
@@ -101,7 +113,7 @@ body {
 
 .nav-menu a:hover,
 .nav-menu a.active {
-    color: #AFC2CC;
+    color: #B9C5BF;
 }
 
 
@@ -419,13 +431,16 @@ body {
 
     transition:
         background-color 0.2s ease,
-        color 0.2s ease;
+        color 0.2s ease,
+        border-color 0.2s ease;
 }
 
 .btn-primary:hover {
     background-color: var(--accent);
 
-    color: white;
+    color: #FFFFFF;
+
+    border-color: var(--accent);
 }
 
 
@@ -453,7 +468,7 @@ body {
 footer {
     background-color: var(--navbar);
 
-    color: #DCE5E8;
+    color: #D9DDDA;
 
     text-align: center;
 
