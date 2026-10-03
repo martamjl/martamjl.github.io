@@ -186,6 +186,15 @@ main section {
     padding: 0.5rem 0 4rem;
 }
 
+/* The About block fills the first screen, so Research starts below it */
+.about-section {
+    min-height: calc(100vh - 143px);
+    min-height: calc(100svh - 143px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* Two columns. Row 1: photo and text, centered on each other.
    Row 2: name and email, under the photo. */
 .about-content {
