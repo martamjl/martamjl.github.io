@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Marta Mojoli</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -10,39 +11,171 @@
         <div class="nav-container">
             <h1 class="nav-title">Marta Mojoli</h1>
             <ul class="nav-menu">
-                <li><a href="index.html" class="active">About Me</a></li>
-                <li><a href="research.html">Research</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#teaching">Teaching</a></li>
                 <li><a href="assets/cv.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
-                <!-- <li><a href="assets/cv.pdf" class="active" target="_blank" rel="noopener noreferrer">CV</a></li> -->
-                <!-- <li><a href="cv.html">CV</a></li> -->
                 <!-- <li><a href="contact.html">Contact</a></li> -->
             </ul>
         </div>
     </nav>
 
     <main class="container">
-        <section class="about-section">
+        <section id="about" class="about-section">
             <div class="about-content">
-                <div class="profile-photo" style="">
+                <div class="profile-photo">
                     <img src="assets/profile.jpg" alt="Profile Photo" onerror="this.src='assets/placeholder.svg'">
                 </div>
+                <div class="profile-caption">
+                    <h2 class="profile-name">Marta Mojoli</h2>
+                    <p class="email"><a href="mailto:marta.mojoli@econ.uzh.ch" style="color: #2c3e50">marta.mojoli@econ.uzh.ch</a></p>
+                </div>
                 <div class="about-text">
-                    <h2>Marta Mojoli</h2>
-                    <p class="email" style=""><a href="mailto:marta.mojoli@econ.uzh.ch" style="color: #2c3e50">marta.mojoli@econ.uzh.ch</a> </p>
-                    <p> </p>
                     <p>Welcome to my website!</p>
                     <p>I am a sixth-year Economics PhD candidate at the <a href="https://www.econ.uzh.ch/en.html" target="_blank" rel="noopener noreferrer" style="color: #2c3e50;">University of Zurich</a>. I am supervised by <a href="https://home.cerge-ei.cz/steiner/" target="_blank" rel="noopener noreferrer" style="color: #2c3e50;">Jakub Steiner</a>, <a href="https://www.econ.uzh.ch/en/people/faculty/netzer.html" target="_blank" rel="noopener noreferrer" style="color: #2c3e50;">Nick Netzer</a> and <a href="https://sites.google.com/site/mirafrickecon/home" target="_blank" rel="noopener noreferrer" style="color: #2c3e50;">Mira Frick</a>. My research focuses on Microeconomic Theory and Behavioral Economics, with particular emphasis on Persuasion and Information Design.</p>
-
-<p><strong>I am on the 2026/27 job market.</strong></p>
-
+                    <p><strong>I am on the 2026/27 job market.</strong></p>
                 </div>
             </div>
         </section>
+
+        <section id="research" class="research-section">
+            <h2>Research</h2>
+
+            <p class="research-label">Job Market Paper</p>
+
+            <div class="paper">
+                <div class="paper-header">
+                    <h4 class="paper-title">Persuasion under Subjective Causal Models</h4>
+                    <span class="paper-tag">[draft coming soon]</span>
+                </div>
+                <details class="paper-abstract">
+                    <summary>Abstract</summary>
+                    <p>
+                        Can a sender exploit the way a receiver interprets information? I study persuasion when the receiver interprets the sender's signal through a subjective causal model, which the sender knows but does not control. The answer depends on whether the receiver regards the signal as a consequence of the state or as one of its causes. In the first case, the sender never gains from a signal that the receiver misinterprets: the sender is weakly worse off than against a Bayesian receiver, and the receiver is never worse off than without information. In the second case, the receiver's posteriors across signal realizations might not average to the prior. The sender can then be strictly better off, and his gain is the receiver's loss: she can be harmed by information that she values.
+                    </p>
+                </details>
+                <!-- <div class="paper-links">
+                    <a href="assets/papers/paper1.pdf" class="btn" target="_blank" rel="noopener noreferrer">PDF</a>
+                    <a href="assets/slides/paper1_slides.pdf" class="btn" target="_blank" rel="noopener noreferrer">Slides</a>
+                </div> -->
+            </div>
+
+            <p class="research-label">Work in Progress</p>
+
+            <div class="paper">
+                <div class="paper-header">
+                    <h4 class="paper-title">Competing in Tailored Stories</h4>
+                    <a href="assets/papers/extended_abstract_CTS.pdf" class="paper-tag" target="_blank" rel="noopener noreferrer">[extended abstract]</a>
+                </div>
+                <p class="paper-authors">joint with <a href="https://chiaraaina.github.io/" target="_blank" rel="noopener noreferrer" style="color: #2c3e50;">C. Aina</a></p>
+                <details class="paper-abstract">
+                    <summary>Abstract</summary>
+                    <p>
+                        We study the competition among senders in the supply of models. For example, politicians compete to supply voters with models to interpret data on immigration or economic outcomes; brokers might want clients to interpret the same firm’s performance differently, driven by different incentives. The senders' strategies and the receiver’s beliefs vary with respect to the incentives of the parties involved.
+                    </p>
+                </details>
+                <!-- <div class="paper-links">
+                    <a href="assets/papers/paper2.pdf" class="btn" target="_blank" rel="noopener noreferrer">PDF</a>
+                    <a href="assets/slides/paper2_slides.pdf" class="btn" target="_blank" rel="noopener noreferrer">Slides</a>
+                </div> -->
+            </div>
+        </section>
+
+        <section id="teaching" class="teaching-section">
+    <h2>Teaching</h2>
+
+    <p class="research-label">Teaching Assistant, University of Zurich</p>
+
+    <div class="paper">
+        <ul class="course-list">
+            <li class="course">
+                <div>
+                    <p class="course-name">Advanced Microeconomics <span class="course-level">(MSc)</span></p>
+                    <p class="course-instructor">Instructor: A. Hefti</p>
+                </div>
+                <p class="course-term">Spring 2024</p>
+            </li>
+            <li class="course">
+                <div>
+                    <p class="course-name">Behavioral Finance <span class="course-level">(BSc)</span></p>
+                    <p class="course-instructor">Instructor: S. Ambuehl</p>
+                </div>
+                <p class="course-term">Fall 2023, Fall 2022</p>
+            </li>
+            <li class="course">
+                <div>
+                    <p class="course-name">Pioneering in Economics <span class="course-level">(BSc)</span></p>
+                    <p class="course-instructor">Instructor: D. Hemous</p>
+                </div>
+                <p class="course-term">Spring 2023</p>
+            </li>
+        </ul>
+    </div>
+
+    <p class="research-label">Teaching Assistant, Bocconi University</p>
+
+    <div class="paper">
+        <ul class="course-list">
+            <li class="course">
+                <div>
+                    <p class="course-name">International Economics and Finance <span class="course-level">(BSc)</span></p>
+                    <p class="course-instructor">Instructor: G. Ottaviano</p>
+                </div>
+                <p class="course-term">Spring 2020, Spring 2021</p>
+            </li>
+            <li class="course">
+                <div>
+                    <p class="course-name">IT Tutor <span class="course-level">(BSc and MSc)</span></p>
+                    <p class="course-instructor">Instructor: Bocconi IT Center</p>
+                </div>
+                <p class="course-term">Fall 2016–Spring 2020</p>
+            </li>
+        </ul>
+    </div>
+
+    <p class="research-label">Teaching Assistant, Milano Fashion Institute, Politecnico di Milano</p>
+
+    <div class="paper">
+        <ul class="course-list">
+            <li class="course">
+                <div>
+                    <p class="course-name">Microsoft Excel <span class="course-level">(MSc)</span></p>
+                    <p class="course-instructor">Instructor: M. Ballerini</p>
+                </div>
+                <p class="course-term">01.2019–02.2019</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
     </main>
 
     <footer>
-        
+
     </footer>
 
+    <script>
+        // Highlight the menu entry of the section currently on screen
+        const menuLinks = document.querySelectorAll('.nav-menu a[href^="#"]');
+        const menuSections = [...menuLinks].map(a => document.querySelector(a.getAttribute('href')));
 
-</body></html>
+        function highlightMenu() {
+            // a section counts as current once its top passes a line one third down the window
+            const line = window.innerHeight / 3;
+            let current = 0;
+            menuSections.forEach((section, i) => {
+                if (section.getBoundingClientRect().top <= line) current = i;
+            });
+            // at the very bottom of the page the last section wins
+            if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) {
+                current = menuSections.length - 1;
+            }
+            menuLinks.forEach((a, i) => a.classList.toggle('active', i === current));
+        }
+
+        window.addEventListener('scroll', highlightMenu, { passive: true });
+        window.addEventListener('resize', highlightMenu);
+        highlightMenu();
+    </script>
+</body>
+</html>
