@@ -358,6 +358,36 @@ main section {
     margin-bottom: 0.5rem;
 }
 
+/* Title that links to the paper: underlined, with a small arrow */
+.paper-title-link {
+    color: inherit;
+
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 5px;
+
+    transition:
+        color 0.2s ease,
+        text-decoration-color 0.2s ease;
+}
+
+.paper-title-link:hover {
+    color: var(--accent-dark);
+    text-decoration-color: var(--accent-dark);
+}
+
+.paper-title-icon {
+    width: 17px;
+    height: 17px;
+
+    margin-left: 0.35rem;
+
+    vertical-align: -1px;
+
+    color: var(--accent);
+}
+
 .paper-header {
     display: flex;
     align-items: center;
